@@ -1,0 +1,1103 @@
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   17:10:16
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : http://128.111.23.9/cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908769016
+startTime   : 12908769016
+interval    : 30
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   17:10:20
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   17:15:21
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : http://128.111.23.9/cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908769322
+startTime   : 12908769322
+interval    : 30
+
+Unable to open remote file http://128.111.23.9/cgi/jpg/image.cgi
+Windows Error Code: 12018
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   17:15:26
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   17:18:56
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : http://128.111.23.9/cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908769536
+startTime   : 12908769536
+interval    : 30
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   17:19:08
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   17:25:07
+------------------------------------
+Configuration file interpretation:
+source      : http://128.111.23.9/cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908769907
+startTime   : 12908769907
+interval    : 30
+
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   17:25:33
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:08:45
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : http://128.111.23.9/cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908772525
+startTime   : 12908772525
+interval    : 30
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Unable to open remote file http://128.111.23.9/cgi/jpg/image.cgi
+Windows Error Code: 12018
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:09:11
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:23:28
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : http://128.111.23.9/cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908773408
+startTime   : 12908773408
+interval    : 30
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Failed to get the data
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:23:51
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:28:34
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : http://128.111.23.9/cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908773714
+startTime   : 12908773714
+interval    : 30
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Failed to get the data
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:28:41
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:32:42
+------------------------------------
+Opening internet connection to: farm3.static.flickr.com
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : http://farm3.static.flickr.com/2535/3940462024_457ca11f96_m.jpg
+destination : c:\temp dir\
+Next time   : 12908777541
+startTime   : 12908777541
+interval    : 3747
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:32:48
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:33:23
+------------------------------------
+Opening internet connection to: farm3.static.flickr.com
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : http://farm3.static.flickr.com/2535/3940462024_457ca11f96_m.jpg
+destination : c:\temp dir\
+Next time   : 12908774003
+startTime   : 12908774003
+interval    : 3747
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Failed to get the data
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:33:45
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:34:43
+------------------------------------
+Opening internet connection to: farm3.static.flickr.com
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : http://farm3.static.flickr.com/2535/3940462024_457ca11f96_m.jpg
+destination : c:\temp dir\
+Next time   : 12908774083
+startTime   : 12908774083
+interval    : 3747
+
+Unable to open remote file http://farm3.static.flickr.com/2535/3940462024_457ca11f96_m.jpg
+Windows Error Code: 12018
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:35:10
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:36:59
+------------------------------------
+Opening internet connection to: farm3.static.flickr.com
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : http://farm3.static.flickr.com/2535/3940462024_457ca11f96_m.jpg
+destination : c:\temp dir\
+Next time   : 12908774219
+startTime   : 12908774219
+interval    : 3747
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/23
+Time   (hh:mm:ss):   18:37:20
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   13:15:41
+------------------------------------
+Opening internet connection to: farm3.static.flickr.com
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : /2535/3940462024_457ca11f96_m.jpg
+destination : c:\temp dir\
+Next time   : 12908841343
+startTime   : 12908841343
+interval    : 3747
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   13:16:49
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   13:17:16
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908841436
+startTime   : 12908841436
+interval    : 30
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   13:18:55
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   13:29:15
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.102
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.105
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908842170
+startTime   : 12908842170
+interval    : 30
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera2
+Next time   : 12908842170
+startTime   : 12908842170
+interval    : 30
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera3
+Next time   : 12908842170
+startTime   : 12908842170
+interval    : 30
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 26171 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 17082 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 3780 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   13:29:56
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   17:42:02
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.102
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.105
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908857330
+startTime   : 12908857330
+interval    : 10
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera2
+Next time   : 12908857380
+startTime   : 12908857380
+interval    : 60
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera3
+Next time   : 12908857380
+startTime   : 12908857380
+interval    : 60
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25466 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   17:42:13
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   17:43:24
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.102
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.105
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908857410
+startTime   : 12908857410
+interval    : 10
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera2
+Next time   : 12908857440
+startTime   : 12908857440
+interval    : 60
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera3
+Next time   : 12908857440
+startTime   : 12908857440
+interval    : 60
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25597 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25440 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25458 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 31856 bytes
+Opening file: /cgi/jpg/image.cgi
+Length: 2899 bytes
+Opening file: /cgi/jpg/image.cgi
+Length: 25535 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25418 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25432 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25612 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25447 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25475 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25650 bytes
+Opening file: /cgi/jpg/image.cgi
+Length: 2909 bytes
+Opening file: /cgi/jpg/image.cgi
+Length: 31416 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25460 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   17:45:14
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   18:12:56
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.102
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.105
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908859180
+startTime   : 12908859180
+interval    : 10
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera2
+Next time   : 12908859180
+startTime   : 12908859180
+interval    : 60
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera3
+Next time   : 12908859180
+startTime   : 12908859180
+interval    : 60
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 2907 bytes
+Opening file: /cgi/jpg/image.cgi
+Length: 27579 bytes
+Opening file: /cgi/jpg/image.cgi
+Length: 25585 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25487 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25530 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25641 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25573 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25466 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 2904 bytes
+Opening file: /cgi/jpg/image.cgi
+Length: 25518 bytes
+Opening file: /cgi/jpg/image.cgi
+Length: 27948 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   18:14:06
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   18:21:48
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.102
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.105
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908859710
+startTime   : 12908859710
+interval    : 10
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera2
+Next time   : 12908859720
+startTime   : 12908859720
+interval    : 60
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera3
+Next time   : 12908859720
+startTime   : 12908859720
+interval    : 60
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25499 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   18:21:57
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   18:22:18
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.102
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.105
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908859740
+startTime   : 12908859740
+interval    : 10
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera2
+Next time   : 12908859780
+startTime   : 12908859780
+interval    : 60
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera3
+Next time   : 12908859780
+startTime   : 12908859780
+interval    : 60
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25662 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   18:22:29
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   18:23:03
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.102
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.105
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908859790
+startTime   : 12908859790
+interval    : 10
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera2
+Next time   : 12908859840
+startTime   : 12908859840
+interval    : 60
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera3
+Next time   : 12908859840
+startTime   : 12908859840
+interval    : 60
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   18:23:56
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   18:30:05
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.102
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.105
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908860210
+startTime   : 12908860210
+interval    : 10
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera2
+Next time   : 12908860260
+startTime   : 12908860260
+interval    : 60
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera3
+Next time   : 12908860260
+startTime   : 12908860260
+interval    : 60
+
+Skipped 1 downloads of /cgi/jpg/image.cgi
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25635 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 28491 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Opening file: /cgi/jpg/image.cgi
+Length: 2781 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   18:34:04
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   18:36:23
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.102
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.105
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908860590
+startTime   : 12908860590
+interval    : 10
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera2
+Next time   : 12908860620
+startTime   : 12908860620
+interval    : 60
+
+source      : /cgi/jpg/image.cgi
+destination : c:\temp\camera3
+Next time   : 12908860620
+startTime   : 12908860620
+interval    : 60
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25483 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25390 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25505 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 2825 bytes
+Opening file: /cgi/jpg/image.cgi
+Length: 28286 bytes
+Opening file: /cgi/jpg/image.cgi
+Length: 25613 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 25520 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   18:37:15
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   20:28:58
+------------------------------------
+Opening internet connection to: 128.111.23.9
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.102
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening internet connection to: 63.198.242.105
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Configuration file interpretation:
+Server      : 128.111.23.9
+Resource    : /cgi/jpg/image.cgi
+destination : c:\temp\camera1
+Next time   : 12908867340
+startTime   : 12908867340
+interval    : 10
+
+Server      : 63.198.242.102
+Resource    : /cgi/jpg/image.cgi
+destination : c:\temp\camera2
+Next time   : 12908867340
+startTime   : 12908867340
+interval    : 60
+
+Server      : 63.198.242.105
+Resource    : /cgi/jpg/image.cgi
+destination : c:\temp\camera3
+Next time   : 12908867340
+startTime   : 12908867340
+interval    : 60
+
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 2824 bytes
+Opening file: /cgi/jpg/image.cgi
+Length: 25771 bytes
+Opening file: /cgi/jpg/image.cgi
+Length: 5911 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 6087 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 5913 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 5835 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CREATED
+Status Code: 60
+Opening file: /cgi/jpg/image.cgi
+Length: 6095 bytes
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+Status Callback
+Status: INTERNET_STATUS_HANDLE_CLOSING
+Status Code: 70
+------------------------------------
+Date (yyyy/mm/dd): 2010/01/24
+Time   (hh:mm:ss):   20:29:47
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/03/24
+Time   (hh:mm:ss):   16:47:40
+------------------------------------
+Configuration lines found
+[http://128.111.23.9/cgi/jpg/image.cgi]   [c:\temp\camera1] [00:01:00] [00:00:10] [admin] [spaceball]
+[http://63.198.242.102/cgi/jpg/image.cgi] [c:\temp\camera2] [00:01:00] [00:01:00] [admin] [spaceball]
+[http://63.198.242.105/cgi/jpg/image.cgi] [c:\temp\camera3] [00:01:00] [00:01:00] [admin] [spaceball]
+Configuration file interpretation:
+No threads started, nothing to do, exiting
+------------------------------------
+Date (yyyy/mm/dd): 2010/03/24
+Time   (hh:mm:ss):   16:47:40
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/03/24
+Time   (hh:mm:ss):   16:54:00
+------------------------------------
+Configuration lines found
+[http://128.111.23.9/cgi/jpg/image.cgi]   [c:\temp\camera1] [00:01:00] [00:00:10] [admin] [spaceball]
+[http://63.198.242.102/cgi/jpg/image.cgi] [c:\temp\camera2] [00:01:00] [00:01:00] [admin] [spaceball]
+[http://63.198.242.105/cgi/jpg/image.cgi] [c:\temp\camera3] [00:01:00] [00:01:00] [admin] [spaceball]
+Configuration file interpretation:
+No threads started, nothing to do, exiting
+------------------------------------
+Date (yyyy/mm/dd): 2010/03/24
+Time   (hh:mm:ss):   16:54:37
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/04/06
+Time   (hh:mm:ss):   20:19:04
+------------------------------------
+Configuration lines found
+[http://128.111.23.9/cgi/jpg/image.cgi]   [c:\temp\camera1] [00:01:00] [00:00:10] [admin] [spaceball]
+[http://63.198.242.102/cgi/jpg/image.cgi] [c:\temp\camera2] [00:01:00] [00:01:00] [admin] [spaceball]
+[http://63.198.242.105/cgi/jpg/image.cgi] [c:\temp\camera3] [00:01:00] [00:01:00] [admin] [spaceball]
+Configuration file interpretation:
+No threads started, nothing to do, exiting
+------------------------------------
+Date (yyyy/mm/dd): 2010/04/06
+Time   (hh:mm:ss):   20:19:04
+------------NORMAL EXIT-------------
+------------NEW INSTANCE------------
+Date (yyyy/mm/dd): 2010/04/06
+Time   (hh:mm:ss):   20:46:56
+------------------------------------
+Configuration lines found
+[http://128.111.23.9/cgi/jpg/image.cgi]   [c:\temp\camera1] [00:01:00] [00:00:10] [admin] [spaceball]
+[http://63.198.242.102/cgi/jpg/image.cgi] [c:\temp\camera2] [00:01:00] [00:01:00] [admin] [spaceball]
+[http://63.198.242.105/cgi/jpg/image.cgi] [c:\temp\camera3] [00:01:00] [00:01:00] [admin] [spaceball]
+Configuration file interpretation:
+No threads started, nothing to do, exiting
+------------------------------------
+Date (yyyy/mm/dd): 2010/04/06
+Time   (hh:mm:ss):   20:46:56
+------------NORMAL EXIT-------------

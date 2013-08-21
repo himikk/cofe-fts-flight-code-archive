@@ -1,0 +1,18 @@
+You want to start a ground computer. Okay.
+
+Do you want to receive data from the CIP?
+- The CIP data comes out of a tube in the north wall near the east door, connects to a VNC labelled "East bay 3", and winds across the wall to near the big CRT monitor. It goes through several adapters, terminating in a USB cable.
+- Disconnect the blue USB-to-RS232 from the beige DB9-to-DB25, plug the blue part into the computer, wait a few seconds, and plug the blue back into the beige. (If you don't do that funny dance, Windows thinks the CIP is a mouse, and goes crazy.)
+- Double-click "Start all ground codes" in the top right of the desktop.
+- The "Slow telemetry" window should behave as described in "I just want to get everything running.txt". If it spews out complaints like crazy, that's bad. Go to the Device Manager. Under "Ports (COM & LPT)", find the comm port being used by the USB-to-serial converter. Enter that comm port in the "Ground configuration" file next to "Start all ground codes", as the value assigned to "LowSpeedComport".
+
+Do you want to receive data over the high-speed telemetry?
+- Connect to the network the MOKAs are on with ethernet. Under the settings for the local area network, go Properties -> TCP/IP, and tell it to use the IP address 10.1.1.16.
+- Double-click "Start all ground codes".
+- The "Fast telemetry" and "Fast telemetry glue" windows should behave as described in "I just want to get everything running.txt".
+
+Do you want to run the groundstation?
+- Double-click the "Start groundstation" icon on the desktop.
+- It might take a minute, but a "Browse for folder" window will appear. Select the folder that contains the date folders whose spaceballs you're interested.
+
+It is advised that you not do all of these things on the same computer -- the telemetry codes are big processor hogs, so the groundstation performance will suck.

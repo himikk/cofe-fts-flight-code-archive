@@ -1,0 +1,21 @@
+So you're not clear on what exactly is going on when the balloon is flying. This file can help. So can this Google Doc: http://tinyurl.com/cofe-high-level
+
+The balloon has three computers, two telescopes, and a bunch of other gadgets on it. There are two "telescope computers," one for each telescope, and one "flight computer," which handles all the other gadgets and talks to the telescope computers.
+
+
+HIGH-LEVEL VIEW
+The telescopes collect data, do a bit of analysis, and send the analyzed data to the flight computer. The servo computer gathers data from the telescopes and a whole mess of other widgets, compresses all that data, and sends it down to the ground computer. The ground computer just writes to disk whatever it hears from the servo computer, and has code that allows semi-real-time plotting and viewing of the data.
+
+
+TELESCOPES
+The telescope collects data from the microwave detectors, the revolution counter, and the "encoder." The encoder tells the angular position of the polarizing disk, from which we can tell what polarization of light coming in we're looking at.
+
+All of this data gets packaged together by a "Daq board," so we know what microwave data corresponds to what encoder data and revolution counter data. The raw data is collected by the "acquisition code" and dumped into .dat files. Another process reads the data, demodulates it into T, Q, and U for each of 16 channels per revolution, and sends (revolution number, T0,Q0,U0, T1,Q1,U1, ..., T15,Q15,U15) once per revolution to the servo computer.
+
+
+SERVO
+The servo computer collects data from lots of things: the magnetometer, Ashtech, revolution counters, LN-250, "housekeeping," and telescope computers. The flight code reads all of these things, bundles them together into "spaceball files," which are pretty compact, and ships them down to ground over the telemetry connection. ("Housekeeping" is just miscellaneous data from lots of diverse things, mostly temperature, current, and voltage readings.)
+
+
+GROUND
+The ground computer runs three kinds of programs: glue, telemetry and groundstation. Glue just ties together the inputs ond outputs of a comm port and socket so that telemetry, which uses a comm port, really communicates over ethernet. Telemetry just listens to the data coming down from the flight computer and writes it into a file. Groundstation converts those .spaceball files into more easily readable .fits files, reads the data from those, and allows the user to plot it.

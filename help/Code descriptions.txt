@@ -1,0 +1,47 @@
+This file describes the purpose of every piece of code in the whole setup, as much as I understand them.
+
+--TELESCOPE CODES--
+acq_tel.exe: this is in charge of reading the telescope data (i.e. microwave detectors, revolution counter, encoder value [i.e. polarizer position]) from the Daq board and writing it to disk. It writes files of about 1000 revolutions each (so one per 40 seconds, with the disk spinning at 25 Hz). Each file is made of a long series of 21-word blocks, each word being two bytes, going (ch0, ch1, ch2, ..., ch15, enc, enc, rev, rev, rev). The encoder position takes up two words and the revolution counter three due to some weirdness in the hardware. The ch<n> words are the data read from the data channels, six of which come from the telescope (three AC, three DC) and several others of which are used for miscellaneous data (like magnetometer heading) in case we need those to help synchronize the data.
+
+demodserve.py: this reads the raw data from .dat files (using datparsing.py), demodulates it (using demodulation.py) into 49 numbers (revolution count, TQU for each of 16 channels) per revolution, and sends it out a robust socket to the servo computer.
+
+ You may ask why we demodulate ALL the channels, given that some of the channels are things like magnetometer data, where the demodulation is complete garbage. The answer is that it's just easier to waste a bit of computer time than to treat some channels differently. The T-data for each channel is just the mean value over that revolution, so we don't actually lose the data when we demodulate it -- we just add on two nonsense channels, the "magnetometer Q" and "magnetometer U."
+
+
+--FLIGHT CODES--
+FlightCode-01.exe: this reads the data coming in from the telescopes and other gadgets, writes them into very compact .spaceball files, and sends those files to the ground computer. The details of its connection to every device (how it communicates, how often it samples, etc.) are in the devices.cfg file. I really don't know its internal structure of this.
+
+ Since the flight code talks to the telescopes and ground using comm port while the physical connection is ethernet, the comm to ip code described in COMMUNICATIONS CODE is run at the same time as FlightCode-01.exe. (Actually, there are two connections to ground: the high-speed one is ethernet, the low-speed is an actual physical comm port. Hopefully we'll never need to use the low-speed, but no special comm-to-ip code is needed to use it.)
+
+
+--GROUND CODES--
+telemetry.exe: this listens to the flight computer sending down .spaceball files, and copies those files to disk. Simple. (Since it listens on a comm port and the high-speed connection is physically ethernet, if we're using the high-speed connection we need to run the comm-to-ip code described in COMMUNICATIONS CODE.)
+
+groundstation/run.py (script): this allows semi-real-time viewing of the data coming down from the flight computer. It runs on two threads. The first thread converts the .spaceball files into .fits files. I'm unclear on how the initial .spaceball-.fits conversion works. But the .fits files produced on the first pass are ugly, so they're reshaped into cleaner versions. In the clean versions, named "..._ext.fits", the .fits has an extension for each device, with several channels in each extension. The first channel is always 'computerClock', a timestamp provided by the flight computer for synchronization.
+
+ The second thread opens a GUI that allows the user to plot the data coming in.
+
+getspaceballs.py (script): this uses FTP to copy spaceball files from the computer running telemetry, so that the groundstation can access them.
+
+
+--COMMUNICATIONS CODE--
+ctipmain.py (script): this "glues" together a robust socket (see that code entry) and a serial port. You specify the comm port name, and an IP address (optional) and port. It will open the given comm port, and open a server robust socket on the given port (if no IP address is given) or open a client and attempt to connect to IP:port (if IP is given). After connecting, any data read from the comm port will be written to the socket, and any data read from the socket will be written to the comm port. This makes use of the glue function provided by the ctipglue.py library.
+
+robustness: ultimately, this Python package just provides the RobustSocket class, which is intended to mask any funny business with sockets. A robust socket will reconnect if any error occurs while doing socket stuff, and requires constant connectivity to the peer, tested by sending a little ping every second or so. If it detects anything wrong, even "wrong" in a passive sense like not receiving a ping, it will restart the connection.
+
+
+--ANALYSIS CODE--
+datparsing.py (library): provides functions for parsing the data contained in the .dat files produced by the telescope acquisition code.
+
+demodulation.py (library): provides demodulate(), which, given a file name, returns an array of revolution-by-revolution TQU for each channel.
+
+powerspectra: contains an application that allows the user to plot power spectrum densities for data from .dat or .fits files.
+- run.py (script): runs the application. Allows the user to select files or ranges of files, and plot power spectrum density for individual channels in those files.
+- psgui.py (library): provides the GUI tools used by run.py.
+- psio.py (library): provides functions for reading data from .dat or .fits files for use in psplot.
+- psplot.py (library): provides the function to actually plot the power spectra.
+
+phasecalibrator.py (script), phaseplotter.py (library): these are for calibrating the "phases" of the various data channels. The details are complicated, but basically, in the demodulation process, we multiply each channel's data by a [+1,-1] square wave, and the differing hardware configuration of each microwave detector means that the square wave needs to be shifted differently for each one. We're going to calibrate the phases by pointing the telescope at a source with known polarization, and collecting data. phasecalibrator.py will demodulate the data with every possible phase (0-63, see demodulation code for details) and find which phase maximizes each channel's Q or U value (depending on the known polarization). Those are the phase offsets we need to shift the square wave by for each channel. phaseplotter.py allows phasecalibrator.py to plot the mean Q or U value (depending on which you asked to maximize) for each given channel as a function of phase. This is in case some blip causes a non-optimal phase to get a much higher value than it should.
+
+--IO CODES--
+dat.py (library), fits.py (library): provide simple functions for reading and writing .dat/.fits files.
